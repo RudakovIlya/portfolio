@@ -1,0 +1,21 @@
+@mixin flex($direction, $align: initial, $justify:initial) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin position($top, $right: initial, $bottom: initial, $left: initial, $position:initial) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin user-select {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}

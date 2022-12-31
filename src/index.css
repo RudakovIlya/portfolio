@@ -83,3 +83,15 @@ h6 {
     font-weight: inherit;
     font-size: inherit;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
