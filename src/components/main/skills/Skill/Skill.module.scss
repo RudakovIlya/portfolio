@@ -1,0 +1,29 @@
+@import '../../../../styles/mixins';
+
+.skill {
+  min-width: 320px;
+  flex: 1 1 33.333%;
+  padding: 0 15px;
+
+  .inner {
+    @include flex(column, center);
+    row-gap: 30px;
+    text-align: center;
+  }
+
+  .square {
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    background-color: black;
+    @include flex(row, center, center);
+    img {
+      transform: rotate(-45deg);
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
+    }
+
+  }
+
+}
