@@ -1,7 +1,7 @@
 import styles from './Header.module.scss'
 import Navbar from "./Navbar/Navbar";
 
-export const Header = () => {
+const Header = () => {
     return (
         <header className={styles.header}>
             <div className={`container ${styles.container}`}>
@@ -10,3 +10,4 @@ export const Header = () => {
         </header>
     );
 };
+export default Header
