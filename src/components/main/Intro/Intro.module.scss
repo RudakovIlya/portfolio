@@ -9,10 +9,6 @@
     height: 100%;
   }
 
-  &:not(:last-child) > * {
-    margin-bottom: 15px;
-  }
-
   h1 {
     font-size: 3.125rem;
   }
