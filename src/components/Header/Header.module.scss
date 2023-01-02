@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+
+.header {
+  background: #99d0fb;
+
+  .container {
+    @include flex(row, center, flex-end);
+    min-height: 80px;
+  }
+}
