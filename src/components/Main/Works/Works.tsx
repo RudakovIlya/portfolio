@@ -7,13 +7,13 @@ export const Works = () => {
         {
             id: 1,
             title: 'Social NetWork',
-            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png',
+            img: '',
             description: 'lorem lorem lorem lorem',
         },
         {
             id: 2,
             title: 'Counter',
-            img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png',
+            img: '',
             description: 'lorem lorem lorem lorem',
         }
     ]
