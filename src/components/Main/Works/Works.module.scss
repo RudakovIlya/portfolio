@@ -1,0 +1,23 @@
+@import '../../../styles/mixins';
+
+.works {
+  background: rgba(255, 0, 0, 0.64);
+  min-height: 100vh;
+  padding: 80px;
+  @include flex(row, center, center, wrap);
+
+  .title {
+    font-size: 3.125rem;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .list {
+    @include flex(row, flex-start, center, wrap);
+    margin: 0 -20px;
+    row-gap: 25px;
+  }
+}
