@@ -5,8 +5,11 @@
   height: calc(100vh - 80px);
 
   .container {
-    @include flex(row, center, space-between);
+    @include flex(row, center, space-between, wrap);
     height: 100%;
+    @media (max-width: 875px) {
+      justify-content: center;
+    }
   }
 
   h1 {
@@ -14,7 +17,7 @@
   }
 
   .photo {
-    width: 300px;
+    flex: 0 1 320px;
     height: 400px;
     background-color: rgba(250, 144, 198, 0.68);
   }

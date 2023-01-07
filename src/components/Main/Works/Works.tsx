@@ -1,5 +1,5 @@
-import React from 'react';
-import Work from "./Work";
+import Work from "./Work/Work";
+import styles from './Works.module.scss'
 
 export const Works = () => {
 
@@ -7,15 +7,39 @@ export const Works = () => {
         {
             id: 1,
             title: 'Social NetWork',
-            img: '',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
             description: 'lorem lorem lorem lorem',
         },
         {
             id: 2,
             title: 'Counter',
-            img: '',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
             description: 'lorem lorem lorem lorem',
-        }
+        },
+        {
+            id: 3,
+            title: 'Redux',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
+            description: 'lorem lorem lorem lorem',
+        },
+        {
+            id: 4,
+            title: 'React-Shop',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
+            description: `lorem lorem lorem lorem`,
+        },
+        {
+            id: 4,
+            title: 'React-Shop',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
+            description: `lorem lorem lorem lorem`,
+        },
+        {
+            id: 2,
+            title: 'Counter',
+            img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
+            description: 'lorem lorem lorem lorem',
+        },
     ]
 
     const mappedWorks = works.map(work => {
@@ -25,10 +49,10 @@ export const Works = () => {
     });
 
     return (
-        <section>
+        <section className={styles.works}>
             <div className={`container`}>
-                <h2>My Works</h2>
-                <ul>
+                <h2 className={styles.title}>My Works</h2>
+                <ul className={styles.list}>
                     {mappedWorks}
                 </ul>
             </div>
