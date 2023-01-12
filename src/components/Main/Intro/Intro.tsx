@@ -12,7 +12,7 @@ export const Intro = () => {
                     <p>I'm frontend developer</p>
                 </div>
                 <div className={styles.photo}>
-                    <img src="" alt=""/>
+                    <img src="https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2020/10/martin-kihn/derek-zoolander-thumb-699428-feFejf8i.jpg" alt="zoolander"/>
                 </div>
             </div>
         </section>

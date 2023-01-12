@@ -1,0 +1,53 @@
+@import '../../../styles/mixins';
+
+.contact {
+  padding: 80px 0;
+  min-height: 70vh;
+  background: #00ff53;
+
+  .container {
+    @include flex(column, center,);
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .form {
+    @include flex(column,);
+    row-gap: 30px;
+    max-width: 540px;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+
+    .input {
+      min-width: 300px;
+    }
+
+    .textarea {
+      min-width: 300px;
+      resize: vertical;
+      min-height: 3rem;
+      max-height: 260px;
+    }
+
+  }
+
+  .button {
+    min-height: 30px;
+    width: 150px;
+    padding: 10px;
+    background: #373179;
+    color: white;
+    border-radius: 10px;
+    margin-top: auto;
+  }
+
+}

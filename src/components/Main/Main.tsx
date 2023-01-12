@@ -2,6 +2,8 @@ import styles from './Main.module.scss'
 import Skills from "./Skills/Skills";
 import {Intro} from "./Intro/Intro";
 import {Works} from "./Works/Works";
+import {RemoteWork} from "./RemoteWork/RemoteWork";
+import Contact from "./Contact/Contact";
 
 const Main = () => {
     return (
@@ -9,6 +11,8 @@ const Main = () => {
             <Intro/>
             <Skills/>
             <Works/>
+            <RemoteWork/>
+            <Contact/>
         </main>
     );
 };

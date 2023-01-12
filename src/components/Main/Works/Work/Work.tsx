@@ -23,7 +23,7 @@ const Work: FC<WorkPropsType> = ({work}) => {
                         <img className={styles.image} src={img} alt={`project: ${title}`}/>
                         <div className={styles.link}>
                             <div>Света спасибо за проверку!!!</div>
-                            <a href="">Demo</a>
+                            <a href="/">Demo</a>
                         </div>
                     </div>
                 </div>

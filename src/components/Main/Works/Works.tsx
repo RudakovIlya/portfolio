@@ -29,13 +29,13 @@ export const Works = () => {
             description: `lorem lorem lorem lorem`,
         },
         {
-            id: 4,
+            id: 5,
             title: 'React-Shop',
             img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
             description: `lorem lorem lorem lorem`,
         },
         {
-            id: 2,
+            id: 6,
             title: 'Counter',
             img: 'https://kartinkof.club/uploads/posts/2022-03/1648227847_7-kartinkof-club-p-mem-kotik-milii-7.jpg',
             description: 'lorem lorem lorem lorem',
