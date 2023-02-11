@@ -1,8 +1,10 @@
 .remote {
   padding: 100px 0;
   text-align: center;
+
   .title {
     font-size: 2rem;
+
     &:not(:last-child) {
       margin-bottom: 30px;
     }

@@ -4,7 +4,7 @@ import styles from "./Intro.module.scss";
 export const Intro = () => {
     return (
 
-        <section className={styles.intro}>
+        <section id={'intro'} className={styles.intro}>
             <div className={`container ${styles.container}`}>
                 <div>
                     <span>Hi, there!</span>

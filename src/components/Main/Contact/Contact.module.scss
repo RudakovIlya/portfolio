@@ -3,32 +3,73 @@
 .contact {
   padding: 80px 0;
   min-height: 70vh;
+  color: var(--color-text);
 
   .container {
-    @include flex(column, center,);
+    @include flex(column, center, center, wrap);
   }
 
 
-  .form {
-    @include flex(column,);
-    row-gap: 30px;
-    max-width: 540px;
+  .forms {
+    width: 100%;
+    @include flex(row, center, space-between, wrap);
 
-    &:not(:last-child) {
-      margin-bottom: 35px;
+    .list {
+      @include flex(column);
+      row-gap: 20px;
+
+      li {
+        a {
+          display: inline-block;
+          font-size: 1.5rem;
+
+          span {
+            margin-left: 12px;
+          }
+
+          svg {
+            vertical-align: middle;
+          }
+        }
+      }
     }
 
-    .input {
-      min-width: 300px;
-    }
+    .form {
+      @include flex(column);
+      row-gap: 30px;
+      flex: 0 1 50%;
+      min-width: 290px;
 
-    .textarea {
-      min-width: 300px;
-      resize: vertical;
-      min-height: 3rem;
-      max-height: 260px;
-    }
+      &:not(:last-child) {
+        margin-bottom: 35px;
+      }
 
+      .field {
+        letter-spacing: 0.00938em;
+        color: var(--color-text);
+        display: inline-flex;
+        align-items: center;
+        border-radius: 4px;
+        padding: 12px 12px;
+        background-color: var(--bg-main-second);
+        outline: 1px solid var(--color-text);
+        transition: none;
+
+        &::placeholder {
+          color: var(--color-text);
+        }
+
+        &:focus {
+          outline: 2px solid var(--color-text);
+        }
+      }
+
+      .textarea {
+        resize: vertical;
+        max-height: 200px;
+      }
+
+    }
   }
 
   .button {

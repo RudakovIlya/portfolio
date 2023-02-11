@@ -6,7 +6,6 @@ type SkillType = {
     skillID: number,
     title: string,
     Icons: IconType,
-    description: string
     fill: string
 }
 
@@ -16,7 +15,7 @@ type SkillPropsType = {
 
 const Skill: FC<SkillPropsType> = ({skill}) => {
 
-    const {Icons, title, description, fill} = skill
+    const {Icons, title, fill} = skill
 
     return (
         <li className={styles.skill}>
@@ -24,8 +23,7 @@ const Skill: FC<SkillPropsType> = ({skill}) => {
                 <div className={styles.square}>
                     <Icons size={50} color={fill}/>
                 </div>
-                <h3>{title}</h3>
-                {description}
+                <h3 className={styles.title}>{title}</h3>
             </div>
 
         </li>

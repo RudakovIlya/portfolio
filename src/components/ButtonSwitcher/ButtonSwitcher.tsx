@@ -1,10 +1,10 @@
-import {useEffect} from 'react';
+import {useContext, useEffect} from 'react';
 import {MdOutlineBrightness6} from "react-icons/md";
-import useLocalStorage from "../../utils/useLocalStorage";
 import styles from './index.module.scss'
+import {ThemeContext} from "../../App";
 
 export const ButtonSwitcher = () => {
-    const [theme, setTheme] = useLocalStorage('theme', 'dark')
+    const {theme, setTheme} = useContext(ThemeContext)
 
     useEffect(() => {
         document.body.setAttribute('data-theme', theme)

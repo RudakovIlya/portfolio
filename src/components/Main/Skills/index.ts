@@ -1,13 +1,73 @@
 import {FaReact} from "react-icons/fa";
-import {SiJavascript, SiJest, SiRedux, SiStyledcomponents, SiTypescript} from "react-icons/si";
+import {SiJavascript, SiJest, SiRedux, SiStyledcomponents, SiTypescript, SiSass} from "react-icons/si";
 import {CgArrowsExchangeV} from "react-icons/cg";
+import {TbApi} from "react-icons/tb";
 
-export const icons = {
+const icons = {
     react: FaReact,
     redux: SiRedux,
     js: SiJavascript,
     ts: SiTypescript,
     axios: CgArrowsExchangeV,
     styled: SiStyledcomponents,
-    jest: SiJest
-}
+    jest: SiJest,
+    sass: SiSass,
+    api: TbApi
+};
+
+export const skills = [
+    {
+        skillID: 1,
+        title: 'React',
+        Icons: icons.react,
+        fill: '#61DAFB',
+    },
+    {
+        skillID: 2,
+        title: 'Redux',
+        Icons: icons.redux,
+        fill: '#764abc',
+    },
+    {
+        skillID: 3,
+        title: 'JavaScript',
+        Icons: icons.js,
+        fill: '#f5de19',
+    },
+    {
+        skillID: 4,
+        title: 'TypesScript',
+        Icons: icons.ts,
+        fill: '#007acc',
+    },
+    {
+        skillID: 5,
+        title: 'Axios',
+        Icons: icons.axios,
+        fill: '#671ddf',
+    },
+    {
+        skillID: 6,
+        title: 'Jest',
+        Icons: icons.jest,
+        fill: '#c63d14',
+    },
+    {
+        skillID: 7,
+        title: 'SASS-SCSS',
+        Icons: icons.sass,
+        fill: '#bf4080',
+    },
+    {
+        skillID: 8,
+        title: 'Rest-API',
+        Icons: icons.api,
+        fill: '#f9004d',
+    },
+    {
+        skillID: 9,
+        title: 'Styled-Components',
+        Icons: icons.styled,
+        fill: '#ffcebf',
+    },
+]

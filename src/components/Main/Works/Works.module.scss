@@ -16,7 +16,7 @@
   }
 
   .list {
-    @include flex(row, flex-start, center, wrap);
+    @include flex(row, stretch, center, wrap);
     margin: 0 -20px;
     row-gap: 25px;
   }
