@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from "./RemoteWork.module.scss";
+import {Title} from "../../Title/Title";
 
 export const RemoteWork = () => {
     return (
         <section className={styles.remote}>
             <div className={`container`}>
-                <h2 className={styles.title}>Remote Work</h2>
+                <Title>Remote Work</Title>
                 <button className={styles.button}>hire me</button>
             </div>
         </section>

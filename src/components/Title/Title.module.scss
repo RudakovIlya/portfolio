@@ -1,0 +1,13 @@
+@import '../../assets/styles/variables';
+
+.title {
+  font-size: 2.5rem;
+  font-weight: $fw600;
+  color: var(--color-text);
+  text-transform: capitalize;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

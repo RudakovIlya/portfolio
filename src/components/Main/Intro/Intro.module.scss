@@ -1,29 +1,37 @@
-@import '../../../styles/mixins';
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/variables';
 
 .intro {
-  background-color: #ffd4f0;
   height: calc(100vh - 80px);
+  color: var(--color-text);
 
   .container {
     @include flex(row, center, space-between, wrap);
     height: 100%;
-    @media (max-width: 875px) {
+    @media (max-width: 997px) {
       justify-content: center;
     }
   }
 
   h1 {
     font-size: 3.125rem;
+    font-weight: $fw600;
+    padding: 10px 0;
   }
 
   .photo {
     flex: 0 1 320px;
     height: 400px;
-    background-color: rgba(250, 144, 198, 0.68);
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    transition: all .3s ease-in-out;
+    background-image: url('../../../assets/images/ilya.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &:hover {
+      background-image: url('../../../assets/images/zoolander.webp');
+      transition: all .3s ease-in-out;
+
     }
   }
 

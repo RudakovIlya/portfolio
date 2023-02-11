@@ -1,9 +1,9 @@
-@import '../../../styles/mixins';
+@import '../../../assets/styles/mixins';
 
 .works {
-  background: rgba(255, 0, 0, 0.64);
   min-height: 100vh;
   padding: 80px;
+  color: var(--color-text);
   @include flex(row, center, center, wrap);
 
   .title {

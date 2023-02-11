@@ -1,5 +1,6 @@
 import Work from "./Work/Work";
 import styles from './Works.module.scss'
+import {Title} from "../../Title/Title";
 
 export const Works = () => {
 
@@ -51,7 +52,7 @@ export const Works = () => {
     return (
         <section className={styles.works}>
             <div className={`container`}>
-                <h2 className={styles.title}>My Works</h2>
+                <Title>My Works</Title>
                 <ul className={styles.list}>
                     {mappedWorks}
                 </ul>

@@ -1,22 +1,13 @@
-@import '../../../styles/mixins';
+@import '../../../assets/styles/mixins';
 
 .contact {
   padding: 80px 0;
   min-height: 70vh;
-  background: #00ff53;
 
   .container {
     @include flex(column, center,);
   }
 
-  .title {
-    font-size: 2rem;
-    text-align: center;
-
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
-  }
 
   .form {
     @include flex(column,);

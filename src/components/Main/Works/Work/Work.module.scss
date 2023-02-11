@@ -1,11 +1,11 @@
-@import '../../../../styles/mixins';
+@import '../../../../assets/styles/mixins';
 
 .item {
   flex: 0 1 25%;
   padding: 0 20px;
   min-width: 320px;
   overflow: hidden;
-  color: white;
+  color: var(--color-text);
 
   .top {
     position: relative;
@@ -33,7 +33,6 @@
           padding: 10px;
           color: white;
           border-radius: 10px;
-          background: #373179;
         }
       }
 

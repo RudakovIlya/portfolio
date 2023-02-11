@@ -1,0 +1,11 @@
+@import '../../assets/styles/mixins';
+
+.header {
+  background-color: var(--bg-header);
+  box-shadow: var(--box-shadow);
+
+  .container {
+    @include flex(row, center, flex-end);
+    min-height: 80px;
+  }
+}

@@ -1,10 +1,9 @@
-@import '../../../styles/mixins';
+@import '../../../assets/styles/mixins';
 
 .skills {
   min-height: 100vh;
   padding: 80px 0;
-  background: #373179;
-  color: #ffffff;
+  color: var(--color-text);
   @include flex(row, center, center, wrap);
 
   .list {

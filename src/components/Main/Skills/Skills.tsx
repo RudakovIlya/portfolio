@@ -1,44 +1,60 @@
 import React from 'react';
 import styles from './Skills.module.scss'
 import Skill from "./Skill/Skill";
+import {Title} from "../../Title/Title";
+import {icons} from './index'
+
 
 const Skills = () => {
 
     const skills = [
         {
             skillID: 1,
-            title: 'JS',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'React',
+            Icons: icons.react,
+            fill: '#61DAFB',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
         {
             skillID: 2,
-            title: 'CSS',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'Redux',
+            Icons: icons.redux,
+            fill: '#764abc',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
         {
             skillID: 3,
-            title: 'HTML',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'JavaScript',
+            Icons: icons.js,
+            fill: '#f5de19',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
         {
             skillID: 4,
-            title: 'React',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'TypesScript',
+            Icons: icons.ts,
+            fill: '#007acc',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
         {
             skillID: 5,
-            title: 'Redux',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'Axios',
+            Icons: icons.axios,
+            fill: '#671ddf',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
         {
             skillID: 6,
-            title: 'Formik',
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2Y2gmQB5zuaBd1AfN_AyEgoTgxPF65i7GwlvrbnnP_RUlubieG19WFnonCtS4ZfAox4&usqp=CAU',
+            title: 'Styled-Components',
+            Icons: icons.styled,
+            fill: '#ffcebf',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
+        },
+        {
+            skillID: 7,
+            title: 'Jest',
+            Icons: icons.jest,
+            fill: '#c63d14',
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet fugit natus numquam, perspiciatis!'
         },
     ]
@@ -52,7 +68,7 @@ const Skills = () => {
     return (
         <section className={styles.skills}>
             <div className={`container`}>
-                <h2 className={styles.title}>My Skills</h2>
+                <Title>My Skills</Title>
                 <ul className={styles.list}>
                     {mappedSkills}
                 </ul>

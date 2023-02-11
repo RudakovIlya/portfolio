@@ -1,6 +1,6 @@
 import styles from './Footer.module.scss'
 
-const Footer = () => {
+export const Footer = () => {
 
     const footerInfo = [
         {
@@ -50,5 +50,3 @@ const Footer = () => {
         </footer>
     );
 };
-
-export default Footer;

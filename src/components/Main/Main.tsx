@@ -5,7 +5,7 @@ import {Works} from "./Works/Works";
 import {RemoteWork} from "./RemoteWork/RemoteWork";
 import Contact from "./Contact/Contact";
 
-const Main = () => {
+export const Main = () => {
     return (
         <main className={styles.main}>
             <Intro/>
@@ -16,5 +16,3 @@ const Main = () => {
         </main>
     );
 };
-
-export default Main;

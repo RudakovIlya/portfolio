@@ -8,12 +8,10 @@ export const Intro = () => {
             <div className={`container ${styles.container}`}>
                 <div>
                     <span>Hi, there!</span>
-                    <h1>My name Ilya Rudakov.</h1>
+                    <h1>My name is Ilya Rudakov.</h1>
                     <p>I'm frontend developer</p>
                 </div>
-                <div className={styles.photo}>
-                    <img src="https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2020/10/martin-kihn/derek-zoolander-thumb-699428-feFejf8i.jpg" alt="zoolander"/>
-                </div>
+                <div className={styles.photo}/>
             </div>
         </section>
 

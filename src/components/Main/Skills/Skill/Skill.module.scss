@@ -1,4 +1,4 @@
-@import '../../../../styles/mixins';
+@import '../../../../assets/styles/mixins';
 
 .skill {
   min-width: 320px;
@@ -12,16 +12,19 @@
   }
 
   .square {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
     transform: rotate(45deg);
     background-color: black;
     @include flex(row, center, center);
-    img {
+
+    svg {
       transform: rotate(-45deg);
-      width: 50%;
-      height: 50%;
+      width: 60px;
+      height: 60px;
       object-fit: cover;
+      border-radius: 10px;
     }
 
   }

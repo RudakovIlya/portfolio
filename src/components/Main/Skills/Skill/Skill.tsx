@@ -1,11 +1,13 @@
 import React, {FC} from 'react';
 import styles from "./Skill.module.scss";
+import {IconType} from "react-icons";
 
 type SkillType = {
     skillID: number,
     title: string,
-    img: string,
+    Icons: IconType,
     description: string
+    fill: string
 }
 
 type SkillPropsType = {
@@ -14,13 +16,13 @@ type SkillPropsType = {
 
 const Skill: FC<SkillPropsType> = ({skill}) => {
 
-    const {img, title, description} = skill
+    const {Icons, title, description, fill} = skill
 
     return (
         <li className={styles.skill}>
             <div className={styles.inner}>
                 <div className={styles.square}>
-                    <img src={img} alt={title}/>
+                    <Icons size={50} color={fill}/>
                 </div>
                 <h3>{title}</h3>
                 {description}
