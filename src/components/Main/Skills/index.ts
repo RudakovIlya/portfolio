@@ -1,7 +1,17 @@
 import {FaReact} from "react-icons/fa";
-import {SiJavascript, SiJest, SiRedux, SiSass, SiStyledcomponents, SiTypescript} from "react-icons/si";
+import {
+    SiJavascript,
+    SiJest,
+    SiMaterialui,
+    SiRedux,
+    SiSass,
+    SiStorybook,
+    SiStyledcomponents,
+    SiTypescript
+} from "react-icons/si";
 import {CgArrowsExchangeV} from "react-icons/cg";
 import {TbApi} from "react-icons/tb";
+import {GrTest} from "react-icons/gr";
 
 const icons = {
     react: FaReact,
@@ -12,7 +22,10 @@ const icons = {
     styled: SiStyledcomponents,
     jest: SiJest,
     sass: SiSass,
-    api: TbApi
+    api: TbApi,
+    story: SiStorybook,
+    mui: SiMaterialui,
+    unit: GrTest
 };
 
 export const skills = [
@@ -69,5 +82,23 @@ export const skills = [
         title: 'Styled-Components',
         Icons: icons.styled,
         fill: '#ffcebf',
+    },
+    {
+        skillID: 10,
+        title: 'StoryBook',
+        Icons: icons.story,
+        fill: '#FF4785',
+    },
+    {
+        skillID: 11,
+        title: 'MUI',
+        Icons: icons.mui,
+        fill: '#007FFF',
+    },
+    {
+        skillID: 12,
+        title: 'Unit-tests',
+        Icons: icons.unit,
+        fill: '#66bb6a',
     },
 ]
