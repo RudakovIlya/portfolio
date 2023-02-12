@@ -12,7 +12,7 @@ export const footer = [
     {
         id: 1,
         Icon: icons.codewars,
-        link: 'https://www.codewars.com/users/rsschool_fa52ce3af42956ba',
+        link: 'https://www.codewars.com/users/asap_alh',
         fill: '#bb432c',
         prefix: 'cd'
     },
