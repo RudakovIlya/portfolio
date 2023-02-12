@@ -13,22 +13,25 @@
   .forms {
     width: 100%;
     @include flex(row, center, space-between, wrap);
+    @media screen and (max-width: 767.98px) {
+      row-gap: 26px;
+    }
 
     .list {
       @include flex(column);
       row-gap: 20px;
+      @media screen and (max-width: 767.98px) {
+        align-items: center;
+        flex: 1 1 100%;
+      }
 
       li {
         a {
           display: inline-block;
-          font-size: 1.5rem;
+          @include adaptive-font(24px, 16px);
 
           span {
             margin-left: 12px;
-          }
-
-          svg {
-            vertical-align: middle;
           }
         }
       }
@@ -39,6 +42,12 @@
       row-gap: 30px;
       flex: 0 1 50%;
       min-width: 290px;
+      padding: 0 0 0 15px;
+
+      @media screen and (max-width: 767.98px) {
+        flex: 1 1 100%;
+        padding: 0;
+      }
 
       &:not(:last-child) {
         margin-bottom: 35px;
@@ -66,20 +75,14 @@
 
       .textarea {
         resize: vertical;
-        max-height: 200px;
+        max-height: 180px;
       }
 
     }
   }
 
-  .button {
-    min-height: 30px;
-    width: 150px;
-    padding: 10px;
-    background: #373179;
-    color: white;
-    border-radius: 10px;
-    margin-top: auto;
+  button {
+    align-self: center;
   }
 
 }

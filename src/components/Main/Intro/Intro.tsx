@@ -1,7 +1,7 @@
-import React from 'react';
+import {memo} from 'react';
 import styles from "./Intro.module.scss";
 
-export const Intro = () => {
+export const Intro = memo(() => {
     return (
 
         <section id={'intro'} className={styles.intro}>
@@ -16,5 +16,5 @@ export const Intro = () => {
         </section>
 
     );
-};
+});
 

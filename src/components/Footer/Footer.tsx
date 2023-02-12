@@ -3,19 +3,17 @@ import {Title} from "../Title/Title";
 import {footer} from "./index";
 
 export const Footer = () => {
-
-
     return (
         <footer className={styles.footer}>
             <div className={`container`}>
                 <Title>Rudakov Ilya</Title>
                 <ul className={styles.list}>
                     {
-                        footer.map(({link, id, Icon, fill}) => {
+                        footer.map(({link, id, Icon, prefix}) => {
                             return (
                                 <li key={id} className={styles.item}>
                                     <a rel="noreferrer" target={'_blank'} href={link}>
-                                        <Icon color={fill} size={50}/>
+                                        <Icon className={`${styles[`${prefix}`]}`} size={50}/>
                                     </a>
                                 </li>
                             )

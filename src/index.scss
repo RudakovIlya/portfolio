@@ -74,6 +74,10 @@ img {
   vertical-align: top;
 }
 
+svg {
+  vertical-align: middle;
+}
+
 h1,
 h2,
 h3,
@@ -82,16 +86,6 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
-}
-
-::-moz-selection {
-  background-color: rgb(118, 74, 188);
-  color: var(--color-text);
-}
-
-::selection {
-  background-color: rgb(118, 74, 188);
-  color: var(--color-text);
 }
 
 #root {
@@ -119,6 +113,16 @@ body[data-theme='light'] {
   --bg-main-first: #fafafa;
   --bg-main-second: #f5f5f5;
   --color-text: #00000099;
+}
+
+::-moz-selection {
+  background-color: rgb(118, 74, 188);
+  color: var(--color-text);
+}
+
+::selection {
+  background-color: rgb(118, 74, 188);
+  color: var(--color-text);
 }
 
 section {

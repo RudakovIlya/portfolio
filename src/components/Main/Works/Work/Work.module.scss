@@ -1,4 +1,5 @@
 @import '../../../../assets/styles/mixins';
+@import '../../../../assets/styles/variables';
 
 .item {
   flex: 1 1 33.333%;
@@ -7,6 +8,7 @@
   overflow: hidden;
   color: var(--color-text);
   min-height: 385px;
+
   .top {
     position: relative;
 
@@ -18,21 +20,24 @@
       }
 
       .link {
-        position: absolute;
-        top: -100%;
-        left: 0;
+        @include position(absolute, -100%, 0, 0, 0);
+        @include flex(column, center, center);
         height: 100%;
         width: 100%;
-        @include flex(column, center, center);
         background: rgba(7, 7, 7, 0.47);
         transition: all .3s ease;
         font-size: 20px;
 
         a {
-          min-height: 30px;
-          padding: 10px;
-          color: white;
-          border-radius: 10px;
+          color: #F3F6F9;
+
+          svg {
+            stroke: #F3F6F9;
+
+            rect {
+              stroke: #F3F6F9;
+            }
+          }
         }
       }
 
@@ -46,16 +51,12 @@
     padding: 15px;
 
     .title {
-      font-size: 24px;
-      font-weight: 600;
+      font-size: 1.5rem;
+      font-weight: $fw600;
 
       &:not(:last-child) {
         margin-bottom: 15px;
       }
-    }
-
-    .description {
-
     }
   }
 }

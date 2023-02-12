@@ -1,3 +1,4 @@
+import {memo} from "react";
 import styles from './Main.module.scss'
 import {Skills} from "./Skills/Skills";
 import {Intro} from "./Intro/Intro";
@@ -6,7 +7,7 @@ import {RemoteWork} from "./RemoteWork/RemoteWork";
 import {Contact} from "./Contact/Contact";
 import {ParticlesContainer} from "../Particles/ParticlesContainer";
 
-export const Main = () => {
+export const Main = memo(() => {
     return (
         <main className={styles.main}>
             <ParticlesContainer/>
@@ -17,4 +18,4 @@ export const Main = () => {
             <Contact/>
         </main>
     );
-};
+});

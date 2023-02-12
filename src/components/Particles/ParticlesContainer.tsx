@@ -1,11 +1,10 @@
-import React, {useContext, useEffect, useState} from 'react';
-import {useCallback} from "react";
+import {memo, useCallback, useContext} from 'react';
 import Particles from "react-tsparticles";
 import type {Engine} from "tsparticles-engine";
 import {loadFull} from "tsparticles";
 import {ThemeContext} from "../../App";
 
-export function ParticlesContainer() {
+export const ParticlesContainer = memo(() => {
     const {theme} = useContext(ThemeContext)
 
     const customInit = useCallback(async (engine: Engine) => {
@@ -120,4 +119,4 @@ export function ParticlesContainer() {
     return <Particles options={options}
                       init={customInit}
     />;
-}
+})

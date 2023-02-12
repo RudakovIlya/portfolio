@@ -1,5 +1,5 @@
 import {FaReact} from "react-icons/fa";
-import {SiJavascript, SiJest, SiRedux, SiStyledcomponents, SiTypescript, SiSass} from "react-icons/si";
+import {SiJavascript, SiJest, SiRedux, SiSass, SiStyledcomponents, SiTypescript} from "react-icons/si";
 import {CgArrowsExchangeV} from "react-icons/cg";
 import {TbApi} from "react-icons/tb";
 

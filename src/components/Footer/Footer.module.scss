@@ -20,6 +20,27 @@
     .item {
       width: 50px;
       height: 50px;
+
+      svg {
+        color: var(--color-text);
+        transition: color .3s ease;
+      }
+
+      .cd:hover {
+        color: #bb432c;
+      }
+
+      .tg:hover {
+        color: #0088cc;
+      }
+
+      .git:hover {
+        color: #000000;
+      }
+
+      .link:hover {
+        color: #0077b5;
+      }
     }
 
   }

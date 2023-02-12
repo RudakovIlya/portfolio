@@ -1,8 +1,8 @@
-import React, {memo} from 'react';
-import styles from './Skills.module.scss'
-import Skill from "./Skill/Skill";
-import {Title} from "../../Title/Title";
+import {memo} from 'react';
 import {skills} from './index'
+import {Skill} from "./Skill/Skill";
+import styles from './Skills.module.scss'
+import {Title} from "../../Title/Title";
 
 
 export const Skills = memo(() => {

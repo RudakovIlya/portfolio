@@ -6,5 +6,8 @@
   .container {
     @include flex(row, center, flex-end);
     min-height: 80px;
+    @media screen and (max-width: 475px) {
+      @include flex(row, center, center);
+    }
   }
 }

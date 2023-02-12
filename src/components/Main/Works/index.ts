@@ -8,23 +8,20 @@ export const works = [
         title: 'Social NetWork',
         img: soc,
         description: 'lorem lorem lorem lorem',
-        linkHub: '',
-        linkDeploy: ''
+        linkDeploy: 'https://rudakovilya.github.io/social-network/'
     },
     {
         id: 2,
         title: 'Recipe app',
         img: recipe,
         description: 'lorem lorem lorem lorem',
-        linkHub: '',
-        linkDeploy: ''
+        linkDeploy: 'https://rudakovilya.github.io/meal-app/'
     },
     {
         id: 3,
         title: 'Countries App',
         img: countries,
         description: 'lorem lorem lorem lorem',
-        linkHub: '',
-        linkDeploy: ''
+        linkDeploy: 'https://rudakovilya.github.io/countries/'
     },
 ]

@@ -1,9 +1,10 @@
-import Work from "./Work/Work";
+import {Work} from "./Work/Work";
 import styles from './Works.module.scss'
 import {Title} from "../../Title/Title";
 import {works} from "./index";
+import {memo} from "react";
 
-export const Works = () => {
+export const Works = memo(() => {
 
     const mappedWorks = works.map(work => {
         return (
@@ -21,4 +22,4 @@ export const Works = () => {
             </div>
         </section>
     );
-}
+})

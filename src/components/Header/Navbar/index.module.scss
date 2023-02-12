@@ -11,16 +11,14 @@
         display: inline-block;
         position: relative;
         font-weight: $fw600;
-        font-size: 22px;
+        @include adaptive-font(24, 16);
         color: var(--color-text);
         text-decoration: none;
-        transition: all 0.2s ease;
+        transition: width 0.2s ease;
 
         &:after {
           content: '';
-          position: absolute;
-          bottom: -3px;
-          left: 0;
+          @include position(absolute, initial, 0, -3px, 0);
           width: 0;
           height: 2px;
           border-right: 5px;

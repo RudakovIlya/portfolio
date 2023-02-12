@@ -2,7 +2,7 @@
 
 .works {
   min-height: 100vh;
-  padding: 80px;
+  padding: 80px 0;
   color: var(--color-text);
   @include flex(row, center, center, wrap);
 

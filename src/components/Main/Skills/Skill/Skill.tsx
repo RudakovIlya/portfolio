@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC, memo} from 'react';
 import styles from "./Skill.module.scss";
 import {IconType} from "react-icons";
 
@@ -13,7 +13,7 @@ type SkillPropsType = {
     skill: SkillType
 }
 
-const Skill: FC<SkillPropsType> = ({skill}) => {
+export const Skill: FC<SkillPropsType> = memo(({skill}) => {
 
     const {Icons, title, fill} = skill
 
@@ -25,9 +25,6 @@ const Skill: FC<SkillPropsType> = ({skill}) => {
                 </div>
                 <h3 className={styles.title}>{title}</h3>
             </div>
-
         </li>
     );
-};
-
-export default Skill;
+});
