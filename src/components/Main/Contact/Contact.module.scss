@@ -28,10 +28,10 @@
       li {
         a {
           display: inline-block;
-          @include adaptive-font(24px, 16px);
 
           span {
             margin-left: 12px;
+            @include adaptive-font(20, 16);
           }
         }
       }
