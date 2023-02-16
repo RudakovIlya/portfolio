@@ -9,7 +9,7 @@ import useLocalStorage from './utils/useLocalStorage'
 
 export const ThemeContext = createContext<any>(null)
 
-function App() {
+export const App = () => {
   const [theme, setTheme] = useLocalStorage('theme', 'dark')
   return (
     <>
@@ -21,5 +21,3 @@ function App() {
     </>
   )
 }
-
-export default App
