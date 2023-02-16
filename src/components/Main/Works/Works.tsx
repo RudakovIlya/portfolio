@@ -1,25 +1,23 @@
-import {Work} from "./Work/Work";
+import { memo } from 'react'
+
+import { Title } from '../../Title/Title'
+
+import { Work } from './Work/Work'
 import styles from './Works.module.scss'
-import {Title} from "../../Title/Title";
-import {works} from "./index";
-import {memo} from "react";
+import { works } from './index'
+
 
 export const Works = memo(() => {
+  const mappedWorks = works.map((work) => {
+    return <Work key={work.id} work={work} />
+  })
 
-    const mappedWorks = works.map(work => {
-        return (
-            <Work key={work.id} work={work}/>
-        )
-    });
-
-    return (
-        <section id={'projects'} className={styles.works}>
-            <div className={`container`}>
-                <Title>My Works</Title>
-                <ul className={styles.list}>
-                    {mappedWorks}
-                </ul>
-            </div>
-        </section>
-    );
+  return (
+    <section id={'projects'} className={styles.works}>
+      <div className={`container`}>
+        <Title>My Works</Title>
+        <ul className={styles.list}>{mappedWorks}</ul>
+      </div>
+    </section>
+  )
 })
