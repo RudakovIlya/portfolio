@@ -4,6 +4,7 @@
 .intro {
   height: calc(100vh - 80px);
   color: var(--color-text);
+  padding-top: 20px;
 
   .container {
     @include flex(row, center, space-between, wrap);
@@ -22,6 +23,7 @@
   p {
     font-size: 18px;
     line-height: 1.5;
+
     &:not(:last-child) {
       margin-bottom: 8px;
     }
