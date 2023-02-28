@@ -9,6 +9,7 @@ import { Skills } from './Skills/Skills'
 import { Works } from './Works/Works'
 import styles from './main.module.scss'
 
+
 export const Main = memo(() => {
   return (
     <main className={styles.main}>

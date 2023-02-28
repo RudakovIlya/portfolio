@@ -4,6 +4,7 @@ import { Button } from '../../../button/Button'
 
 import styles from './work.module.scss'
 
+
 type WorkType = {
   id: number
   title: string

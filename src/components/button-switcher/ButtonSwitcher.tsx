@@ -5,6 +5,7 @@ import { ThemeContext } from '../../App'
 
 import styles from './button-switcher.module.scss'
 
+
 export const ButtonSwitcher = () => {
   const { theme, setTheme } = useContext(ThemeContext)
 

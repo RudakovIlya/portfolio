@@ -6,6 +6,7 @@ import { Main } from './components/sections/Main'
 
 import useLocalStorage from './utils/useLocalStorage'
 
+
 export const ThemeContext = createContext<any>(null)
 
 export const App = () => {

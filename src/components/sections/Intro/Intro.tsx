@@ -10,6 +10,15 @@ export const Intro = memo(() => {
           <span>Hi, there!</span>
           <h1>My name is Ilya Rudakov.</h1>
           <p>I'm frontend developer</p>
+          <p>
+            You can find more information about me in my{' '}
+            <a
+              rel='noreferrer'
+              target={'_blank'}
+              href={'https://drive.google.com/file/d/18goEzIMRchlGTHHVs9syQeYK_yZOzcLg/view?usp=share_link'}>
+              CV
+            </a>
+          </p>
         </div>
         <div className={styles.photo} />
       </div>

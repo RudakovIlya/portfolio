@@ -6,6 +6,7 @@ import { Skill } from './Skill/Skill'
 import { skills } from './skills.data'
 import styles from './skills.module.scss'
 
+
 export const Skills = memo(() => {
   const mappedSkills = skills.map((skill) => {
     return <Skill key={skill.skillID} skill={skill} />

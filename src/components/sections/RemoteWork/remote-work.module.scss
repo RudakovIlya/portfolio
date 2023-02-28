@@ -2,21 +2,12 @@
   padding: 100px 0;
   text-align: center;
 
-  .title {
-    font-size: 2rem;
+  h2 {
+    text-transform: none;
 
     &:not(:last-child) {
       margin-bottom: 30px;
     }
-  }
-
-  .button {
-    min-height: 30px;
-    width: 150px;
-    padding: 10px;
-    background: #373179;
-    color: white;
-    border-radius: 10px;
   }
 
 }

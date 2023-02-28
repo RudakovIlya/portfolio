@@ -1,4 +1,4 @@
-import { AiFillMail } from 'react-icons/ai'
+import { AiFillFileText, AiFillMail } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { MdOutlinePlace } from 'react-icons/md'
 
@@ -9,10 +9,14 @@ export const contacts = [
   },
   {
     Icon: AiFillMail,
-    link: 'rudakov.alhan@gmail.com',
+    link: 'rudakov.ilya.work@gmail.com',
   },
   {
     Icon: MdOutlinePlace,
     link: 'https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80',
+  },
+  {
+    Icon: AiFillFileText,
+    link: 'https://drive.google.com/file/d/18goEzIMRchlGTHHVs9syQeYK_yZOzcLg/view?usp=share_link',
   },
 ]

@@ -5,6 +5,7 @@ import type { Engine } from 'tsparticles-engine'
 
 import { ThemeContext } from '../../App'
 
+
 export const ParticlesContainer = memo(() => {
   const { theme } = useContext(ThemeContext)
 

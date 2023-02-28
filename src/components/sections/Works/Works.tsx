@@ -6,6 +6,7 @@ import { Work } from './Work/Work'
 import { works } from './works.data'
 import styles from './works.module.scss'
 
+
 export const Works = memo(() => {
   const mappedWorks = works.map((work) => {
     return <Work key={work.id} work={work} />

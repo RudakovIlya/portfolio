@@ -3,6 +3,7 @@ import { Title } from '../title/Title'
 import { footer } from './footer.data'
 import styles from './footer.module.scss'
 
+
 export const Footer = () => {
   return (
     <footer className={styles.footer}>

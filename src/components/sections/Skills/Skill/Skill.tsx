@@ -3,6 +3,7 @@ import { IconType } from 'react-icons'
 
 import styles from './skill.module.scss'
 
+
 type SkillType = {
   skillID: number
   title: string

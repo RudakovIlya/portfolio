@@ -12,7 +12,7 @@ export const MyInfo: FC<IMyInfo> = memo(({ Icon, link }) => {
     <li key={link}>
       <a rel='noreferrer' target={'_blank'} href={`${currentLink}${link}`}>
         <Icon size={30} />
-        <span>{link.includes('wiki') ? 'Krasnodar, Russia' : link}</span>
+        <span>{link.includes('wiki') ? 'Krasnodar, Russia' : link.includes('drive') ? 'My CV' : link}</span>
       </a>
     </li>
   )

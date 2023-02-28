@@ -1,0 +1,49 @@
+@import '../../../../assets/styles/mixins';
+
+.form {
+  @include flex(column);
+  row-gap: 30px;
+  flex: 0 1 50%;
+  min-width: 290px;
+  padding: 0 0 0 15px;
+
+  @media screen and (max-width: 767.98px) {
+    flex: 1 1 100%;
+    padding: 0;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .field {
+    letter-spacing: 0.00938em;
+    color: var(--color-text);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 12px 12px;
+    background-color: var(--bg-main-second);
+    outline: 1px solid var(--color-text);
+    transition: none;
+
+    &::placeholder {
+      color: var(--color-text);
+    }
+
+    &:focus {
+      outline: 2px solid var(--color-text);
+    }
+  }
+
+  .textarea {
+    resize: vertical;
+    max-height: 180px;
+  }
+
+  .error {
+    color: #bb432c;
+    font-weight: 600;
+  }
+
+}
