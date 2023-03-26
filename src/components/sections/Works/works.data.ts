@@ -1,8 +1,9 @@
+import cards from '../../../assets/images/cards.svg'
 import countries from '../../../assets/images/countries.svg'
+import empty from '../../../assets/images/empty.svg'
 import recipe from '../../../assets/images/recipe.svg'
 import soc from '../../../assets/images/soc-network.svg'
-import cards from '../../../assets/images/cards.svg'
-import empty from '../../../assets/images/empty.svg'
+
 
 export const works = [
   {
@@ -39,7 +40,8 @@ export const works = [
     img: empty,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://github.com/RudakovIlya',
-  },  {
+  },
+  {
     id: 6,
     title: 'In progress',
     img: empty,
