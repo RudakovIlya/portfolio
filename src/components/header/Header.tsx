@@ -1,6 +1,6 @@
-import { ButtonSwitcher } from '../button-switcher/ButtonSwitcher'
+import { ButtonSwitcher } from 'components/button-switcher/ButtonSwitcher'
+import { Navbar } from 'components/header/Navbar/Navbar'
 
-import { Navbar } from './Navbar/Navbar'
 import styles from './header.module.scss'
 
 

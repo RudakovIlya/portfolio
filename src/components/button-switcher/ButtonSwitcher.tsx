@@ -1,7 +1,6 @@
+import { ThemeContext } from 'App'
 import { useContext, useEffect } from 'react'
 import { MdOutlineBrightness6 } from 'react-icons/md'
-
-import { ThemeContext } from '../../App'
 
 import styles from './button-switcher.module.scss'
 

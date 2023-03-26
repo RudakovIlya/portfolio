@@ -1,9 +1,8 @@
+import { Skill } from 'components/sections/Skills/Skill/Skill'
+import { skills } from 'components/sections/Skills/skills.data'
+import { Title } from 'components/title/Title'
 import { memo } from 'react'
 
-import { Title } from '../../title/Title'
-
-import { Skill } from './Skill/Skill'
-import { skills } from './skills.data'
 import styles from './skills.module.scss'
 
 

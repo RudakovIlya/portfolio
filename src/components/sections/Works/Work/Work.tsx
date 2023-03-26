@@ -1,6 +1,5 @@
+import { Button } from 'components/button/Button'
 import { FC, memo } from 'react'
-
-import { Button } from '../../../button/Button'
 
 import styles from './work.module.scss'
 

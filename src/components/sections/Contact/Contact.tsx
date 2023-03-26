@@ -1,11 +1,10 @@
+import { contacts } from 'components/sections/Contact/contact.data'
+import { Form } from 'components/sections/Contact/form/Form'
+import { MyInfo } from 'components/sections/Contact/my-info/MyInfo'
+import { Title } from 'components/title/Title'
 import { memo } from 'react'
 
-import { Title } from '../../title/Title'
-
-import { contacts } from './contact.data'
 import styles from './contact.module.scss'
-import Form from './form/Form'
-import { MyInfo } from './my-info/MyInfo'
 
 
 export const Contact = memo(() => {

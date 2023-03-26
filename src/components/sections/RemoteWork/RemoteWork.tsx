@@ -1,6 +1,5 @@
+import { Title } from 'components/title/Title'
 import { memo } from 'react'
-
-import { Title } from '../../title/Title'
 
 import styles from './remote-work.module.scss'
 

@@ -1,12 +1,11 @@
+import { ThemeContext } from 'App'
+import { Button } from 'components/button/Button'
+import { useContactForm } from 'components/sections/Contact/form/use-form'
 import { useContext } from 'react'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-import { ThemeContext } from '../../../../App'
-import { Button } from '../../../button/Button'
-
 import styles from './form.module.scss'
-import { useContactForm } from './use-form'
 
 
 export const Form = () => {
@@ -41,5 +40,3 @@ export const Form = () => {
     </form>
   )
 }
-
-export default Form

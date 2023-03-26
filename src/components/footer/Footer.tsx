@@ -1,6 +1,6 @@
-import { Title } from '../title/Title'
+import { footer } from 'components/footer/footer.data'
+import { Title } from 'components/title/Title'
 
-import { footer } from './footer.data'
 import styles from './footer.module.scss'
 
 

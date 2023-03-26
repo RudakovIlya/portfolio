@@ -1,9 +1,8 @@
+import { Work } from 'components/sections/Works/Work/Work'
+import { works } from 'components/sections/Works/works.data'
+import { Title } from 'components/title/Title'
 import { memo } from 'react'
 
-import { Title } from '../../title/Title'
-
-import { Work } from './Work/Work'
-import { works } from './works.data'
 import styles from './works.module.scss'
 
 
