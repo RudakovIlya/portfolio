@@ -17,6 +17,6 @@ export const contacts = [
   },
   {
     Icon: AiFillFileText,
-    link: 'https://drive.google.com/file/d/18goEzIMRchlGTHHVs9syQeYK_yZOzcLg/view?usp=share_link',
+    link: 'https://drive.google.com/file/d/1d-cFfjeZ4rl5ELklTyZVdXLzDFlOs0Qm/view?usp=sharing',
   },
 ]
