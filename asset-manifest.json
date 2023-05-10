@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2cc965e2.css",
-    "main.js": "/portfolio/static/js/main.e2e7ee77.js",
+    "main.js": "/portfolio/static/js/main.af26791a.js",
     "static/media/countries.svg": "/portfolio/static/media/countries.a4f1d5db40793715408ed4e6839ff230.svg",
     "static/media/soc-network.svg": "/portfolio/static/media/soc-network.8ba083fc79ee4927f6a24953773d7200.svg",
     "static/media/recipe.svg": "/portfolio/static/media/recipe.cfa90c8725abc6293679a55b21e12b29.svg",
     "static/media/ilya.webp": "/portfolio/static/media/ilya.4bda4a144ca955457a28.webp",
     "static/media/zoolander.webp": "/portfolio/static/media/zoolander.5bb7acd72db4ee8accda.webp",
     "static/media/cards.svg": "/portfolio/static/media/cards.b9747eb3d8b58e424f2fbb623972428a.svg",
+    "static/media/beer.svg": "/portfolio/static/media/beer.d2cc828acc0e62a39cc4119797fe9b18.svg",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.a0a9a83448ddb5827d70493a84d37806.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/empty.svg": "/portfolio/static/media/empty.fb04a5afb8566d56044a5c8eda71ee57.svg",
     "main.2cc965e2.css.map": "/portfolio/static/css/main.2cc965e2.css.map",
-    "main.e2e7ee77.js.map": "/portfolio/static/js/main.e2e7ee77.js.map"
+    "main.af26791a.js.map": "/portfolio/static/js/main.af26791a.js.map"
   },
   "entrypoints": [
     "static/css/main.2cc965e2.css",
-    "static/js/main.e2e7ee77.js"
+    "static/js/main.af26791a.js"
   ]
 }
