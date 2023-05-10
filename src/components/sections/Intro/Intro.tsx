@@ -15,7 +15,7 @@ export const Intro = memo(() => {
             <a
               rel='noreferrer'
               target={'_blank'}
-              href={'https://drive.google.com/file/d/18goEzIMRchlGTHHVs9syQeYK_yZOzcLg/view?usp=share_link'}>
+              href={'https://drive.google.com/file/d/1d-cFfjeZ4rl5ELklTyZVdXLzDFlOs0Qm/view?usp=sharing'}>
               CV
             </a>
           </p>
