@@ -1,24 +1,19 @@
 import cards from '../../../assets/images/cards.svg'
 import countries from '../../../assets/images/countries.svg'
-import empty from '../../../assets/images/empty.svg'
 import recipe from '../../../assets/images/recipe.svg'
 import soc from '../../../assets/images/soc-network.svg'
+import beer from '../../../assets/images/beer.svg'
+import instagram from '../../../assets/images/instagram.svg'
+
 
 
 export const works = [
   {
     id: 1,
-    title: 'Social Network',
-    img: soc,
+    title: 'Learning Cards',
+    img: cards,
     description: 'lorem lorem lorem lorem',
-    linkDeploy: 'https://rudakovilya.github.io/social-network/',
-  },
-  {
-    id: 2,
-    title: 'Recipes',
-    img: recipe,
-    description: 'lorem lorem lorem lorem',
-    linkDeploy: 'https://rudakovilya.github.io/meal-app/',
+    linkDeploy: 'https://rudakovilya.github.io/cards/#/auth/login',
   },
   {
     id: 3,
@@ -29,23 +24,30 @@ export const works = [
   },
   {
     id: 4,
-    title: 'Learning Cards',
-    img: cards,
+    title: 'Recipes',
+    img: recipe,
     description: 'lorem lorem lorem lorem',
-    linkDeploy: 'https://rudakovilya.github.io/cards/#/auth/login',
-  },
-  {
-    id: 5,
-    title: 'In progress',
-    img: empty,
-    description: 'lorem lorem lorem lorem',
-    linkDeploy: 'https://github.com/RudakovIlya',
+    linkDeploy: 'https://rudakovilya.github.io/meal-app/',
   },
   {
     id: 6,
-    title: 'In progress',
-    img: empty,
+    title: 'Instagram Clone ',
+    img: instagram,
     description: 'lorem lorem lorem lorem',
-    linkDeploy: 'https://github.com/RudakovIlya',
+    linkDeploy: 'https://onemore8762.github.io/inctagram/ru',
+  },
+  {
+    id: 5,
+    title: 'World of beer',
+    img: beer,
+    description: 'lorem lorem lorem lorem',
+    linkDeploy: 'https://the-world-of-beer.vercel.app/',
+  },
+  {
+    id: 2,
+    title: 'Social Network',
+    img: soc,
+    description: 'lorem lorem lorem lorem',
+    linkDeploy: 'https://rudakovilya.github.io/social-network/',
   },
 ]
