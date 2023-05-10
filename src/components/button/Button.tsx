@@ -8,6 +8,7 @@ interface IButton<As extends ElementType> {
   href?: string
   onClick?: () => void
   target?: string
+  className?: string
 }
 
 export const Button: FC<IButton<'button' | 'a'> & PropsWithChildren> = ({
@@ -17,6 +18,7 @@ export const Button: FC<IButton<'button' | 'a'> & PropsWithChildren> = ({
   type = 'button',
   href,
   target,
+  className,
   ...props
 }) => {
   const Component = as || 'button'
@@ -26,7 +28,7 @@ export const Button: FC<IButton<'button' | 'a'> & PropsWithChildren> = ({
       target={target}
       href={href}
       type={type}
-      className={`${styles.btn} ${styles.btn1}`}
+      className={`${styles.btn} ${styles.btn1} ${className}`}
       onClick={onClick}>
       <svg>
         <rect x='0' y='0' fill='none' width='100%' height='100%' />
