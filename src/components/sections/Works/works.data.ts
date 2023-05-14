@@ -14,7 +14,8 @@ export const works = [
     img: cards,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://rudakovilya.github.io/cards',
-    linkRepo: 'https://github.com/RudakovIlya/cards'
+    linkRepo: 'https://github.com/RudakovIlya/cards',
+    transitionTitle: 'cards'
   },
   {
     id: 3,
@@ -22,7 +23,8 @@ export const works = [
     img: countries,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://rudakovilya.github.io/countries/',
-    linkRepo: 'https://github.com/RudakovIlya/countries/'
+    linkRepo: 'https://github.com/RudakovIlya/countries/',
+    transitionTitle: 'countries'
   },
   {
     id: 4,
@@ -30,7 +32,8 @@ export const works = [
     img: recipe,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://rudakovilya.github.io/meal-app/',
-    linkRepo: 'https://github.com/RudakovIlya/meal-app/'
+    linkRepo: 'https://github.com/RudakovIlya/meal-app/',
+    transitionTitle: 'recipes'
   },
   {
     id: 6,
@@ -38,7 +41,8 @@ export const works = [
     img: instagram,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://onemore8762.github.io/inctagram/ru',
-    linkRepo: 'https://github.com/RudakovIlya/inctagram'
+    linkRepo: 'https://github.com/RudakovIlya/inctagram',
+    transitionTitle: 'instagram'
   },
   {
     id: 5,
@@ -46,7 +50,8 @@ export const works = [
     img: beer,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://the-world-of-beer.vercel.app/',
-    linkRepo: 'https://github.com/RudakovIlya/the-world-of-beer'
+    linkRepo: 'https://github.com/RudakovIlya/the-world-of-beer',
+    transitionTitle: 'beer'
   },
   {
     id: 2,
@@ -54,6 +59,7 @@ export const works = [
     img: soc,
     description: 'lorem lorem lorem lorem',
     linkDeploy: 'https://rudakovilya.github.io/social-network/',
-    linkRepo: 'https://github.com/RudakovIlya/social-network'
+    linkRepo: 'https://github.com/RudakovIlya/social-network',
+    transitionTitle: 'social'
   },
 ]

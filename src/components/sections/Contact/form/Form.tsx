@@ -1,22 +1,23 @@
-import { ThemeContext } from 'App'
+import { ThemeContext } from 'components/app/App'
 import { Button } from 'components/button/Button'
 import { useContactForm } from 'components/sections/Contact/form/use-form'
 import { useContext } from 'react'
+import { useTranslation } from 'react-i18next'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 import styles from './form.module.scss'
 
-
 export const Form = () => {
   const { nameError, emailError, messageError, onSubmit, register, form } = useContactForm()
   const { theme } = useContext(ThemeContext)
+  const { t } = useTranslation()
   return (
     <form ref={form} onSubmit={onSubmit} className={styles.form}>
       <input
         {...register('user_name')}
         name={'user_name'}
-        placeholder={'Your name'}
+        placeholder={t('your-name')}
         className={`${styles.field}`}
         type='text'
       />
@@ -24,7 +25,7 @@ export const Form = () => {
       <input
         {...register('user_email')}
         name={'user_email'}
-        placeholder={'Your email'}
+        placeholder={t('your-email')}
         className={`${styles.field}`}
         type='email'
       />
@@ -32,10 +33,10 @@ export const Form = () => {
       <textarea
         {...register('message')}
         name={'message'}
-        placeholder={'Message'}
+        placeholder={t('message')}
         className={`${styles.textarea} ${styles.field}`}></textarea>
       {messageError && <span className={styles.error}>{messageError}</span>}
-      <Button type={'submit'}>Send</Button>
+      <Button type={'submit'}>{t('send')}</Button>
       <ToastContainer theme={theme === 'light' ? 'dark' : 'light'} />
     </form>
   )

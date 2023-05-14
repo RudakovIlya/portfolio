@@ -1,4 +1,4 @@
-import { ThemeContext } from 'App'
+import { ThemeContext } from 'components/app/App'
 import { memo, useCallback, useContext } from 'react'
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'

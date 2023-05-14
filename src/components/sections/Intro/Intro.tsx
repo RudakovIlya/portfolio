@@ -1,17 +1,19 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import styles from './intro.module.scss'
 
 export const Intro = memo(() => {
+  const { t } = useTranslation();
   return (
     <section id={'intro'} className={styles.intro}>
       <div className={`container ${styles.container}`}>
         <div>
-          <span>Hi, there!</span>
-          <h1>My name is Ilya Rudakov.</h1>
-          <p>I'm frontend developer</p>
+          <span>{t("hi")}</span>
+          <h1>{t('name')}</h1>
+          <p>{t('frontend')}</p>
           <p>
-            You can find more information about me in my{' '}
+            {t('cv')}&nbsp;
             <a
               rel='noreferrer'
               target={'_blank'}

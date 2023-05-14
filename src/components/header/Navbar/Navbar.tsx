@@ -1,30 +1,22 @@
+import { navbarData } from 'components/header/Navbar/navbar.data'
+import { useTranslation } from 'react-i18next'
+
 import styles from './navbar.module.scss'
 
 export const Navbar = () => {
+  const { t } = useTranslation()
+  const navLinks = navbarData.map((link) => {
+    return (
+      <li key={link.id} className={styles.item}>
+        <a href={link.anchor} className={styles.link}>
+          {t(link.title)}
+        </a>
+      </li>
+    )
+  })
   return (
     <nav className={styles.nav}>
-      <ul className={styles.list}>
-        <li className={styles.item}>
-          <a href={'#intro'} className={styles.link}>
-            Home
-          </a>
-        </li>
-        <li className={styles.item}>
-          <a href={'#skills'} className={styles.link}>
-            Skills
-          </a>
-        </li>
-        <li className={styles.item}>
-          <a href={'#projects'} className={styles.link}>
-            Projects
-          </a>
-        </li>
-        <li className={styles.item}>
-          <a href={'#contact'} className={styles.link}>
-            Contacts
-          </a>
-        </li>
-      </ul>
+      <ul className={styles.list}>{navLinks}</ul>
     </nav>
   )
 }

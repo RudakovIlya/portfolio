@@ -1,11 +1,14 @@
 .btn {
   color: var(--color-text);
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   max-width: 160px;
   min-width: 160px;
   position: relative;
-  padding: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
