@@ -1,14 +1,13 @@
 import { ThemeContext } from 'App'
-import { useContext, useEffect } from 'react'
+import { useContext, useLayoutEffect } from 'react'
 import { MdOutlineBrightness6 } from 'react-icons/md'
 
 import styles from './button-switcher.module.scss'
 
-
 export const ButtonSwitcher = () => {
   const { theme, setTheme } = useContext(ThemeContext)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.body.setAttribute('data-theme', theme)
   }, [theme])
 
