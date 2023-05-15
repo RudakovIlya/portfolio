@@ -24,5 +24,10 @@
   "recipes": "Book of recipes",
   "instagram": "Instagram clone",
   "beer": "World of beer",
-  "social": "Social Network"
+  "social": "Social Network",
+  "required": "Required",
+  "15 length": "Message should be of minimum 15 characters length",
+  "email": "Email must be a valid!",
+  "success": "Your message has been sent successfully!",
+  "error": "'Something went wrong, please try again!"
 }
