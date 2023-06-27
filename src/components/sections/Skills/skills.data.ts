@@ -4,7 +4,7 @@ import { GrTest } from 'react-icons/gr'
 import {
   SiJavascript,
   SiJest,
-  SiMaterialui,
+  SiMui,
   SiRedux,
   SiSass,
   SiStorybook,
@@ -24,7 +24,7 @@ const icons = {
   sass: SiSass,
   api: TbApi,
   story: SiStorybook,
-  mui: SiMaterialui,
+  mui: SiMui,
   unit: GrTest,
 }
 
