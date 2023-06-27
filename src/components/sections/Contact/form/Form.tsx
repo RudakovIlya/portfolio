@@ -1,6 +1,6 @@
 import { ThemeContext } from 'components/app/App'
 import { Button } from 'components/button/Button'
-import { useContactForm } from 'components/sections/Contact/form/use-form'
+import { useContactForm } from './use-form'
 import { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ToastContainer } from 'react-toastify'

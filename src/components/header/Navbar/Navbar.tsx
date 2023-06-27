@@ -1,4 +1,4 @@
-import { navbarData } from 'components/header/Navbar/navbar.data'
+import { navbarData } from './navbar.data'
 import { useTranslation } from 'react-i18next'
 
 import styles from './navbar.module.scss'

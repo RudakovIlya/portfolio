@@ -1,9 +1,8 @@
-import { ThemeContext } from 'components/app/App'
+import { ThemeContext } from '../app/App'
 import { memo, useCallback, useContext } from 'react'
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'
 import type { Engine } from 'tsparticles-engine'
-
 
 export const ParticlesContainer = memo(() => {
   const { theme } = useContext(ThemeContext)

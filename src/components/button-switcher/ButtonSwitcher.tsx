@@ -1,4 +1,4 @@
-import { ThemeContext } from 'components/app/App'
+import { ThemeContext } from '../app/App'
 import { useContext, useLayoutEffect } from 'react'
 import { MdOutlineBrightness6 } from 'react-icons/md'
 

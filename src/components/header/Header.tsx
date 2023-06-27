@@ -1,6 +1,6 @@
-import { ButtonSwitcher } from 'components/button-switcher/ButtonSwitcher'
-import { Navbar } from 'components/header/Navbar/Navbar'
-import { LangSwitcher } from 'components/lang-switcher/LangSwitcher'
+import { ButtonSwitcher } from '../button-switcher/ButtonSwitcher'
+import { Navbar } from './Navbar/Navbar'
+import { LangSwitcher } from '../lang-switcher/LangSwitcher'
 
 import styles from './header.module.scss'
 

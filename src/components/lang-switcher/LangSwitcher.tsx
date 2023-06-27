@@ -2,7 +2,7 @@ import { FC, useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import cls from './lang-switcher.module.scss'
-import { ThemeContext } from 'components/app/App'
+import { ThemeContext } from '../app/App'
 
 interface Props {
   className?: string

@@ -1,5 +1,5 @@
-import { footer } from 'components/footer/footer.data'
-import { Title } from 'components/title/Title'
+import { footer } from './footer.data'
+import { Title } from '../title/Title'
 import { useTranslation } from 'react-i18next'
 
 import styles from './footer.module.scss'

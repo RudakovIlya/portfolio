@@ -1,5 +1,5 @@
-import { Work } from 'components/sections/Works/Work/Work'
-import { works } from 'components/sections/Works/works.data'
+import { Work } from './Work/Work'
+import { works } from './works.data'
 import { Title } from 'components/title/Title'
 import { memo } from 'react'
 import { useTranslation } from 'react-i18next'

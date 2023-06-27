@@ -1,7 +1,7 @@
-import { Footer } from 'components/footer/Footer'
-import { Header } from 'components/header/Header'
-import { Main } from 'components/sections/Main'
-import {  createContext } from 'react'
+import { Footer } from '../footer/Footer'
+import { Header } from '../header/Header'
+import { Main } from '../sections/Main'
+import { createContext } from 'react'
 import { useLocalStorage } from 'utils/useLocalStorage'
 
 export const ThemeContext = createContext<any>(null)
