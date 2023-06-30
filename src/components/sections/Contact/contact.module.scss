@@ -9,7 +9,6 @@
     @include flex(column, center, center, wrap);
   }
 
-
   .forms {
     width: 100%;
     @include flex(row, center, space-between, wrap);
@@ -38,11 +37,9 @@
         }
       }
     }
-
   }
 
   button {
     align-self: center;
   }
-
 }

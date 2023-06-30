@@ -17,7 +17,7 @@ i18n
       useSuspense: true,
     },
     backend: {
-      loadPath: '/portfolio/locales/{{lng}}/{{ns}}.json'
+      loadPath: '/portfolio/locales/{{lng}}/{{ns}}.json',
     },
   })
 

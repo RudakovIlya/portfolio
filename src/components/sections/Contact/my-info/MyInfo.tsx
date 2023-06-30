@@ -8,7 +8,7 @@ interface IMyInfo {
 }
 
 export const MyInfo: FC<IMyInfo> = memo(({ Icon, link }) => {
-  const {t} = useTranslation()
+  const { t } = useTranslation()
   const currentLink = link.includes('@gmail.com') ? 'mailto:' : link.includes('988') ? 'tel:' : ''
   return (
     <li key={link}>

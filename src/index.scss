@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  transition: color, background-color .3s ease;
+  transition: color, background-color 0.3s ease;
 }
 
 *,
@@ -107,7 +107,7 @@ body[data-theme='dark'] {
   --bg-header: #2b2b2b;
   --bg-main-first: #1f1f20;
   --bg-main-second: #262626;
-  --color-text: #F3F6F9;
+  --color-text: #f3f6f9;
 }
 
 body[data-theme='light'] {

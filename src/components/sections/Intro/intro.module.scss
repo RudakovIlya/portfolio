@@ -38,7 +38,7 @@
   .photo {
     flex: 0 1 320px;
     height: 400px;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-image: url('../../../assets/images/ilya.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,10 +46,7 @@
 
     &:hover {
       background-image: url('../../../assets/images/zoolander.webp');
-      transition: all .3s ease-in-out;
-
+      transition: all 0.3s ease-in-out;
     }
   }
-
 }
-

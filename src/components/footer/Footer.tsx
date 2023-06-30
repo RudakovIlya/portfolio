@@ -21,7 +21,9 @@ export const Footer = () => {
             )
           })}
         </ul>
-        <p className={styles.copy}>&copy; {new Date().getFullYear()} {t('all-rights')}.</p>
+        <p className={styles.copy}>
+          &copy; {new Date().getFullYear()} {t('all-rights')}.
+        </p>
       </div>
     </footer>
   )

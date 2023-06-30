@@ -15,7 +15,10 @@ export const LangSwitcher: FC<Props> = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en')
   }
   return (
-    <button style={{color: theme === 'dark' ? '#1A1718' : '#F3F6F9' }} onClick={onChangeLang} className={cls.button}>
+    <button
+      style={{ color: theme === 'dark' ? '#1A1718' : '#F3F6F9' }}
+      onClick={onChangeLang}
+      className={cls.button}>
       {t('lang')}
     </button>
   )

@@ -19,4 +19,3 @@ export function useLocalStorage<T>(key: string, defaultValue: T) {
 
   return [value, setValue]
 }
-

@@ -12,7 +12,6 @@
     @include flex(row, center, center);
     column-gap: 30px;
 
-
     &:not(:last-child) {
       margin-bottom: 25px;
     }
@@ -23,7 +22,7 @@
 
       svg {
         color: var(--color-text);
-        transition: color .3s ease;
+        transition: color 0.3s ease;
       }
 
       .cd:hover {
@@ -42,7 +41,5 @@
         color: #0077b5;
       }
     }
-
   }
-
 }

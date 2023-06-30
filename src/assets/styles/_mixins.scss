@@ -1,4 +1,4 @@
-@mixin flex($direction, $align: initial, $justify:initial, $wrap: initial) {
+@mixin flex($direction, $align: initial, $justify: initial, $wrap: initial) {
   display: flex;
   flex-direction: $direction;
   align-items: $align;
@@ -6,7 +6,7 @@
   flex-wrap: $wrap;
 }
 
-@mixin position($position:initial, $top: initial, $right: initial, $bottom: initial, $left: initial,) {
+@mixin position($position: initial, $top: initial, $right: initial, $bottom: initial, $left: initial) {
   position: $position;
   top: $top;
   right: $right;

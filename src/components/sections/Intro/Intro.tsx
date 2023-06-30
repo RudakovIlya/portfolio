@@ -4,12 +4,12 @@ import { useTranslation } from 'react-i18next'
 import styles from './intro.module.scss'
 
 export const Intro = memo(() => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <section id={'intro'} className={styles.intro}>
       <div className={`container ${styles.container}`}>
         <div>
-          <span>{t("hi")}</span>
+          <span>{t('hi')}</span>
           <h1>{t('name')}</h1>
           <p>{t('frontend')}</p>
           <p>

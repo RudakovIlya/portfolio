@@ -20,7 +20,7 @@ type WorkPropsType = {
 
 export const Work: FC<WorkPropsType> = memo(({ work }) => {
   const { t } = useTranslation()
-  const { title, img, linkDeploy, linkRepo,transitionTitle } = work
+  const { title, img, linkDeploy, linkRepo, transitionTitle } = work
   return (
     <li className={styles.item}>
       <div className={styles.top}>
