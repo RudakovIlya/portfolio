@@ -6,7 +6,7 @@ import { useLocalStorage } from 'utils/useLocalStorage'
 
 export const ThemeContext = createContext<any>(null)
 
-export const App = () => {
+export default function App() {
   const [theme, setTheme] = useLocalStorage('theme', 'dark')
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
